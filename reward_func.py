@@ -388,3 +388,20 @@ reward_object = Reward ()  # add parameter verbose=True to get noisy output for 
 
 def reward_function ( params ):
 	return reward_object.reward_function ( params )
+
+# params = {}
+# params [ 'all_wheels_on_track' ] = True
+# params [ 'distance_from_center' ] = True
+# params [ 'is_left_of_center' ] = True
+# params [ 'heading' ] = True
+# params [ 'progress' ] = True
+# params [ 'steps' ] = True
+# params [ 'speed' ] = True
+# params [ 'steering_angle' ] = True
+# params [ 'track_width' ] = True
+# params [ 'waypoints' ] = True
+# params [ 'closest_waypoints' ] = True
+# params [ 'is_offtrack' ] = True
+# params [ 'x' ] = True
+# params [ 'y' ] = True
+# reward_function( params )
